@@ -1,0 +1,57 @@
+.who-we-help-first-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.who-we-help-first-container p {
+	width: 500px;
+	text-align: center;
+}
+
+.who-we-help-decoration-text {
+	margin: 20px;
+	width: 200px;
+}
+
+.who-we-help-buttons {
+	width: 250px;
+	height: 110px;
+	font-size: 1.5rem;
+	margin: 20px 50px;
+	border: none;
+	background-color: #ffff;
+	
+}
+
+.who-we-help-buttons:hover {
+	border: 1px solid $color5;
+	cursor: pointer;
+}
+
+.who-we-help-second-container {
+	margin: 60px auto;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.who-we-help-second-container td:last-child {
+	text-align: right;
+}
+
+.who-we-help-second-container td {
+	height: auto;
+	padding: 20px 0;
+	width: 600px;
+	border-bottom: 1px solid black;
+	
+}
+
+@media screen and (max-width: 960px) {
+	.who-we-help-first-container {
+		text-align: center;
+	}
+
+}

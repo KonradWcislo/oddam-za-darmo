@@ -1,0 +1,31 @@
+.three-columns {
+	display: flex;
+	justify-content: space-around;
+	background-color: $color3;
+}
+
+.three-columns-container {
+	padding: 5%;
+	text-align: center;
+}
+
+.three-columns-h1 {
+	font-size: 5rem;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.three-columns-h3 {
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	.three-columns {
+		flex-direction: column;
+		width: 100vw;
+	}
+	.three-columns-p {
+		margin: 0 60px;
+	}
+}

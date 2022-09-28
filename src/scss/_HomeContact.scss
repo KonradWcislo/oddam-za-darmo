@@ -1,0 +1,74 @@
+.contact-container {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-left-column-background {
+	background-image: url("./../assets/Background-Contact-Form.jpg");
+	width: 60%;
+	height: 750px;
+	opacity: 0.3;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact-right-column-background {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.contact-right-column-background form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-first-row {
+	width: 500px;
+	display: flex;
+	text-align: left;
+}
+
+.contact-second-row {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.contact-right-column-background .contact-first-row input {
+	width: 200px;
+	height: auto;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.contact-right-column-background .contact-second-row input {
+	width: 450px;
+	height: auto;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.contact-right-column-background .contact-first-row label,
+.contact-right-column-background .contact-second-row label {
+	margin: 20px 0;
+}
+
+.contact-right-column-background button {
+	cursor: pointer;
+	width: 140px;
+	height: 60px;
+	font-size: 1rem;
+	border: 1px solid $color5;
+	margin-top: 50px;
+	background-color: #ffff;
+}
+
+.ctc {
+    display: flex;
+    justify-content: right;
+}

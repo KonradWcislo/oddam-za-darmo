@@ -1,0 +1,32 @@
+.about-us-columns {
+	display: flex;
+	justify-content: space-between;
+	background-color: $color1;
+}
+
+.about-us-first-column {
+	text-align: center;
+	width: 350px;
+	margin: 100px;
+}
+
+.about-us-second-column {
+	width: 50%;
+	height: 100%;
+}
+
+.about-us-signature {
+	width: 100px;
+	float: right;
+}
+
+@media screen and (max-width: 960px) {
+	.about-us-columns {
+		flex-direction: column;
+		width: 100vw;
+		align-items: center;
+	}
+	.about-us-second-column {
+		width: 100vw;
+	}
+}
