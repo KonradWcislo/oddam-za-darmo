@@ -1,7 +1,9 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import DecorationText from "./../../assets/Decoration.svg"
 
 export const HomeSectionMain = () => {
+	const navigate = useNavigate()
 	return (
 		<section name='HomeSectionMain' className='section-main'>
 			<div className='first-column two-columns'>
@@ -18,7 +20,7 @@ export const HomeSectionMain = () => {
 					alt='ozdoba tekstu'
 				/>
 				<div className='second-colum-button-container'>
-					<button className='second-column-button' onClick={event => (window.location.href = "/logowanie")}>
+					<button className='second-column-button' onClick={() => navigate('/logowanie')}>
 						Oddaj
 						<br /> rzeczy
 					</button>

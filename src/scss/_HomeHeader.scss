@@ -16,7 +16,7 @@
 	justify-content: flex-end;
 	padding: 25px 0;
 	height: 80px;
-	}
+}
 
 .login,
 .register {
@@ -47,10 +47,9 @@ li {
 	border: 1px solid #ffff;
 }
 
-li:hover {
+nav li:hover {
 	border: 1px solid $color2;
 }
 
 @media all and (max-width: 960px) {
-	
 }

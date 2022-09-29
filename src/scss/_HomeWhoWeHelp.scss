@@ -3,6 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	margin-top: 40px;
+	width: 100vw;
 }
 
 .who-we-help-first-container p {
@@ -15,14 +16,18 @@
 	width: 200px;
 }
 
+.who-we-help-buttons-container {
+	display: flex;
+	justify-content: space-around;
+}
+
 .who-we-help-buttons {
-	width: 250px;
+	width: 200px;
 	height: 110px;
 	font-size: 1.5rem;
 	margin: 20px 50px;
 	border: none;
 	background-color: #ffff;
-	
 }
 
 .who-we-help-buttons:hover {
@@ -31,10 +36,9 @@
 }
 
 .who-we-help-second-container {
-	margin: 60px auto;
+	margin: 10px auto;
 	display: flex;
 	justify-content: center;
-	
 }
 
 .who-we-help-second-container td:last-child {
@@ -46,12 +50,39 @@
 	padding: 20px 0;
 	width: 600px;
 	border-bottom: 1px solid black;
-	
+}
+
+.paginationBttns {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.paginationBttns a {
+	padding: 10px;
+	margin: 8px;
+	border-radius: 2px;
+	color: $color5;
+	cursor: pointer;
+	border: 1px solid #ffff;
+}
+
+.paginationBttns a:hover {
+	border: 1px solid $color4;
+}
+
+.paginationActive a {
+	border: 1px solid $color4;
+}
+
+@media screen and (max-width: 1280px) {
 }
 
 @media screen and (max-width: 960px) {
 	.who-we-help-first-container {
 		text-align: center;
 	}
-
+	.who-we-help-buttons-container {
+		flex-direction: column;
+	}
 }

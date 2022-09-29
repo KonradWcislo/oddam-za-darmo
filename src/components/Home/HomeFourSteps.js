@@ -1,4 +1,5 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import DecorationText from "./../../assets/Decoration.svg"
 import Icon1 from "./../../assets/Icon-1.svg"
 import Icon2 from "./../../assets/Icon-2.svg"
@@ -6,6 +7,7 @@ import Icon3 from "./../../assets/Icon-3.svg"
 import Icon4 from "./../../assets/Icon-4.svg"
 
 export const HomeFourSteps = () => {
+	const navigate = useNavigate()
 	return (
 		<section name='HomeFourSteps'>
 			<div className='four-steps-first-row'>
@@ -40,7 +42,7 @@ export const HomeFourSteps = () => {
 			</div>
 			<div className='four-steps-container four-steps-third-row'>
 				<button
-					onClick={event => (window.location.href = "/logowanie")}
+					onClick={() => navigate("logowanie")}
 					className='four-steps-button'>
 					oddaj
 					<br /> rzeczy

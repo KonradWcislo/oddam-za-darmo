@@ -1,21 +1,23 @@
 import React from "react"
 import { Link } from "react-scroll"
+import { useNavigate } from "react-router-dom"
 import "./../../scss/main.scss"
 export const HomeHeader = () => {
+	const navigate = useNavigate()
 	return (
 		<div className=''>
 			<div className='header-navBar'>
 				<div className='logPanel'>
 					<Link to='LogIn'>
 						<button
-							onClick={event => (window.location.href = "/logowanie")}
+							onClick={() => navigate('/logowanie')}
 							className='login'>
 							Zaloguj
 						</button>
 					</Link>
 					<Link to='Register'>
 						<button
-							onClick={event => (window.location.href = "/rejestracja")}
+							onClick={() => navigate('/rejestracja')}
 							className='register'>
 							Załóż konto
 						</button>
@@ -24,7 +26,7 @@ export const HomeHeader = () => {
 				<nav>
 					<ul>
 						<Link
-							onClick={event => (window.location.href = "/")}
+							onClick={() => navigate('/')}
 							smooth={true}
 							duration={1000}>
 							<li>Start</li>

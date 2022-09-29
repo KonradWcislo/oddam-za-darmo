@@ -1,8 +1,10 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import DecorationText from "./../assets/Decoration.svg"
 import { HomeHeader } from "./Home/HomeHeader"
 
 const LogIn = () => {
+	const navigate = useNavigate()
 	return (
 		<div>
 			<HomeHeader />
@@ -23,9 +25,7 @@ const LogIn = () => {
 						<input type='password'></input>
 					</from>
 					<div className='log-in-button'>
-						<button onClick={event => (window.location.href = "/logowanie")}>
-							Zaloguj się
-						</button>
+						<button onClick={() => navigate("/logowanie")}>Zaloguj się</button>
 						<button>Załóż konto</button>
 					</div>
 				</div>
