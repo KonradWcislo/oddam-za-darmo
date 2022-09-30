@@ -1,15 +1,16 @@
 @import "./settings/fonts";
 @import "./settings/colors";
-@import "./HomeHeader";
-@import "./HomeSectionMain";
-@import "./HomeThreeColumns";
-@import "./HomeFourSteps";
-@import "./HomeAboutUs";
-@import "./HomeWhoWeHelp";
-@import "./HomeContact";
-@import "./HomeFooter";
-@import "./LogIn";
-@import "./Register";
+@import "./home/HomeHeader";
+@import "./home/HomeSectionMain";
+@import "./home/HomeThreeColumns";
+@import "./home/HomeFourSteps";
+@import "./home/HomeAboutUs";
+@import "./home/HomeWhoWeHelp";
+@import "./home/HomeContact";
+@import "./home/HomeFooter";
+@import "./log-files/LogIn";
+@import "./log-files/Register";
+@import "./log-files/LogOut";
 
 * {
 	box-sizing: border-box;

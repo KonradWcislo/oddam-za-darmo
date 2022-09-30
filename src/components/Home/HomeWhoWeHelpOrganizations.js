@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import JsonData from "./../API_DATA.json"
+import JsonData from "./../Data_files/F_DATA.json"
 import ReactPaginate from "react-paginate"
 
 export const HomeWhoWeHelpOrganizations = () => {

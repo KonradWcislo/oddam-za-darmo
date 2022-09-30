@@ -1,7 +1,7 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
-import DecorationText from "./../assets/Decoration.svg"
-import { HomeHeader } from "./Home/HomeHeader"
+import DecorationText from "./../../assets/Decoration.svg"
+import { HomeHeader } from "../Home/HomeHeader"
 
 const LogIn = () => {
 	const navigate = useNavigate()

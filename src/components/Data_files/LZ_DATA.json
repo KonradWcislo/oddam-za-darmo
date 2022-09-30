@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"collection": "“Lorem Ipsum 1”",
+		"purposeAndMission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+		"stuff": "Egestas, sed, tempus"
+	},
+	{
+		"id": 2,
+		"collection": "“Lorem Ipsum 2”",
+		"purposeAndMission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+		"stuff": "Ut, aliquam, purus, sit, amet"
+	},
+    {
+		"id": 3,
+		"collection": "“Lorem Ipsum 3”",
+		"purposeAndMission": "Scelerisque in dictum non consectetur a erat nam.",
+		"stuff": "Mi, quis, hendrerit, dolor"
+	}
+]

@@ -5,9 +5,8 @@ import { HomeFooter } from "./HomeFooter"
 export const HomeContact = () => {
 	return (
 		<>
-			<section name='HomeContact' className='contact-container-background'>
-				<div className='contact-container'>
-					<div className='contact-left-column-background' />
+			<section name='HomeContact' className=''>
+				<div className='contact-container contact-container-background'>
 					<div className='contact-right-column-background'>
 						<div>
 							<h1>Skontaktuj się z nami</h1>
@@ -39,8 +38,8 @@ export const HomeContact = () => {
 							<button>Wyślij</button>
 						</form>
 					</div>
-				</div>
-				<HomeFooter />
+				</div><HomeFooter />
+				
 			</section>
 		</>
 	)
