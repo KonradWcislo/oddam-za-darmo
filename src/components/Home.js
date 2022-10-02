@@ -6,6 +6,7 @@ import { HomeFourSteps } from "./Home/HomeFourSteps"
 import { HomeAboutUs } from "./Home/HomeAboutUs"
 import { HomeWhoWeHelp } from "./Home/HomeWhoWeHelp"
 import { HomeContact } from "./Home/HomeContact"
+import { HomeFooter } from "./Home/HomeFooter"
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<HomeAboutUs />
 			<HomeWhoWeHelp />
 			<HomeContact />
+			<HomeFooter />
 		</>
 	)
 }

@@ -1,8 +1,6 @@
 .contact-container-background {
-	background-image: url("./../../assets/Background-Contact-Form.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	
+position: absolute;
+opacity: 0.3;
 }
 
 .contact-container {
@@ -14,14 +12,6 @@
 
 }
 
-.contact-left-column-background {
-	// background-image: url("./../assets/Background-Contact-Form.jpg");
-
-	// opacity: 0.3;
-	// background-size: cover;
-	// background-repeat: no-repeat;
-}
-
 .contact-right-column-background {
 	display: flex;
 	flex-direction: column;
@@ -29,6 +19,7 @@
 	margin-top: 100px;
 	text-align: center;
 	margin-right: 100px;
+	position: relative;
 }
 
 .contact-right-column-background form {
