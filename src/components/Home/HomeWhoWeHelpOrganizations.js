@@ -1,14 +1,28 @@
 import React, { useEffect, useState } from "react"
-import JsonData from "./../Data_files/F_DATA.json"
-import ReactPaginate from "react-paginate"
+import FJsonData from "./../Data_files/F_DATA.json"
+import LZJsonData from "./../Data_files/LZ_DATA.json"
+import OPJsonData from "./../Data_files/OP_DATA.json"
+import { Pagination } from "./Pagination"
 
-export const HomeWhoWeHelpOrganizations = () => {
-	const [fundations] = useState(JsonData.slice(0, 9))
+export const HomeWhoWeHelpOrganizations = ({ currentSection }) => {
+	const [fundations, setFoundations] = useState([])
 	const [pageNumber, setPageNumber] = useState(0)
 
 	useEffect(() => {
-		console.log(pageNumber)
-	}, [pageNumber])
+		switch (currentSection) {
+			case "Fundacjom":
+				setFoundations(FJsonData.slice(0, 9))
+				break
+			case "Organizacjom":
+				setFoundations(OPJsonData.slice(0, 6))
+				break
+			case "Lokalnym":
+				setFoundations(LZJsonData.slice(0, 3))
+				break
+			default:
+				console.log("wtf")
+		}
+	}, [currentSection])
 
 	const fundationsPerPage = 3
 	//const pagesVisited = pageNumber + fundationsPerPage
@@ -37,24 +51,17 @@ export const HomeWhoWeHelpOrganizations = () => {
 
 	const pageCount = Math.ceil(fundations.length / fundationsPerPage)
 
-	const changePage = ({ selected }) => {
-		console.log(selected)
+	const changePage = selected => {
 		setPageNumber(selected)
 	}
 	console.log(displayFundations, "displayFundations")
 	return (
 		<div>
 			{displayFundations}
-			<ReactPaginate
-				previousLabel={"<"}
-				nextLabel={">"}
+			<Pagination
 				pageCount={pageCount}
+				currentPage={pageNumber}
 				onPageChange={changePage}
-				containerClassName={"paginationBttns"}
-				previousLinkClassName={"previousBttn"}
-				nextLinkClassName={"nextBttn"}
-				disabledClassName={"paginationDisabled"}
-				activeClassName={"paginationActive"}
 			/>
 		</div>
 	)

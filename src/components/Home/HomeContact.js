@@ -27,7 +27,8 @@ export const HomeContact = () => {
 							<div className='contact-second-row'>
 								<label>
 									Wpisz swoją wiadomość
-									<input
+									<textarea
+										className='display-linebrake'
 										type='text'
 										placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 										required
@@ -38,8 +39,8 @@ export const HomeContact = () => {
 							<button>Wyślij</button>
 						</form>
 					</div>
-				</div><HomeFooter />
-				
+				</div>
+				<HomeFooter />
 			</section>
 		</>
 	)

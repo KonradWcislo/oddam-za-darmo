@@ -1,8 +1,16 @@
 import DecorationText from "./../../assets/Decoration.svg"
 
 import { HomeWhoWeHelpOrganizations } from "./HomeWhoWeHelpOrganizations"
+import { useState } from "react"
 
 export const HomeWhoWeHelp = () => {
+	const [section, setSection] = useState("Fundacjom")
+
+	const handleButtonClick = (e, sectionName) => {
+		e.preventDefault()
+		setSection(sectionName)
+	}
+
 	return (
 		<section name='HomeWhoWeHelp'>
 			<div className='who-we-help-first-container'>
@@ -13,11 +21,21 @@ export const HomeWhoWeHelp = () => {
 					alt=''
 				/>
 				<div className='who-we-help-buttons-container'>
-					<button className='who-we-help-buttons'>Fundacjom</button>
-					<button className='who-we-help-buttons'>
+					<button
+						className='who-we-help-buttons'
+						onClick={e => handleButtonClick(e, "Fundacjom")}>
+						Fundacjom
+					</button>
+					<button
+						className='who-we-help-buttons'
+						onClick={e => handleButtonClick(e, "Organizacjom")}>
 						Oraganizacjom pozarządowym
 					</button>
-					<button className='who-we-help-buttons'>Lokalnym zbiórkom</button>
+					<button
+						className='who-we-help-buttons'
+						onClick={e => handleButtonClick(e, "Lokalnym")}>
+						Lokalnym zbiórkom
+					</button>
 				</div>
 				<p>
 					W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi
@@ -25,7 +43,7 @@ export const HomeWhoWeHelp = () => {
 					czego potrzebują.
 				</p>
 			</div>
-			<HomeWhoWeHelpOrganizations />
+			<HomeWhoWeHelpOrganizations currentSection={section} />
 		</section>
 	)
 }
