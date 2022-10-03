@@ -25,7 +25,6 @@ export const HomeWhoWeHelpOrganizations = ({ currentSection }) => {
 	}, [currentSection])
 
 	const fundationsPerPage = 3
-	//const pagesVisited = pageNumber + fundationsPerPage
 
 	const displayFundations = fundations
 		.filter((el, i) => i >= pageNumber * 3 && i <= pageNumber * 3 + 2)
@@ -58,7 +57,7 @@ export const HomeWhoWeHelpOrganizations = ({ currentSection }) => {
 	return (
 		<div>
 			{displayFundations}
-			<Pagination
+			<Pagination  
 				pageCount={pageCount}
 				currentPage={pageNumber}
 				onPageChange={changePage}

@@ -58,7 +58,7 @@
 	justify-content: center;
 }
 
-.paginationBttns a {
+.paginationBttns li {
 	padding: 10px;
 	margin: 8px;
 	border-radius: 2px;
@@ -67,11 +67,7 @@
 	border: 1px solid #ffff;
 }
 
-.paginationBttns a:hover {
-	border: 1px solid $color4;
-}
-
-.paginationActive a {
+.paginationBttns li:hover {
 	border: 1px solid $color4;
 }
 

@@ -6,7 +6,7 @@ export const Pagination = ({ pageCount, currentPage, onPageChange }) => {
 	}
 
 	return (
-		<ul>
+		<ul className="paginationBttns">
 			{pageCount > 1 &&
 				Array.from(Array(pageCount).keys()).map(n => (
 					<li onClick={e => handlePageClick(e, n)}>{n + 1}</li>
