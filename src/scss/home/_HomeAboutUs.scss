@@ -2,23 +2,31 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: $color1;
-	height: 95vh;
+	height: 100vh;
+	align-items: center;
 }
 
 .about-us-first-column {
 	text-align: center;
-	width: 350px;
-	margin: 100px;
-	
+	width: 540px;
+	margin: 0 6%;
+	font-size: 1.5rem;
+	line-height: 45px;
+}
+
+.about-us-first-column h1, .about-us-first-column img {
+	padding-bottom: 15px;
 }
 
 .about-us-second-column {
-	width: 50%;
-	height: 100%;
+	width: 50vw;
+	height: 100vh;
+	background-size: cover;
+	background-image: url(./../../assets/People.jpg);
 }
 
 .about-us-signature {
-	width: 100px;
+	width: 150px;
 	float: right;
 }
 

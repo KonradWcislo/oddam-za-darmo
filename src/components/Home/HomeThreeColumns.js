@@ -5,8 +5,8 @@ export const HomeThreeColumns = () => {
 		<section className="">
 			<div className="three-columns">
 				<div className="three-columns-container">
-					<h1 className="three-columns-h1">10</h1>
-					<h3 className="three-columns-h3">Oddanych worków</h3>
+					<h1>10</h1>
+					<h3>Oddanych worków</h3>
 					<p className="three-columns-p">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
 				</div>
 				<div className="three-columns-container">

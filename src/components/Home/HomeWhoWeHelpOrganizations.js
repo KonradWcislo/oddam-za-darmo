@@ -35,8 +35,8 @@ export const HomeWhoWeHelpOrganizations = ({ currentSection }) => {
 						<tbody>
 							<tr>
 								<td>
-									<h3>Fundacja {fundation.fundationName}</h3>
-									<p>Cel i misja: {fundation.purposeAndMission}</p>
+									<h3>{fundation.fundationName}</h3>
+									<p>{fundation.purposeAndMission}</p>
 								</td>
 								<td>
 									<p>{fundation.stuff}</p>

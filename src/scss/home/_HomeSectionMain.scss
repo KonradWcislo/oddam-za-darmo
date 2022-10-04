@@ -6,15 +6,10 @@
 }
 
 .home-background-img {
-	background-image: url(./../../assets/Home-Hero-Image.jpg);
-	background-size: cover;
-	background-position: right;
 	height: 720px;
-	width: 45%;
-	position: absolute;
+	left: -360px;
+	position: relative;
 	z-index: -1;
-}
-.first-column {
 }
 
 .second-column {
@@ -31,9 +26,9 @@
 
 // second column
 
-.second-column-h1 {
+.second-column h1 {
 	text-align: center;
-	font-weight: lighter;
+	font-weight: 400;
 }
 
 .second-column-decoration-text {
@@ -58,14 +53,5 @@
 }
 
 @media all and (max-width: 960px) {
-	.section-main {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.second-colum-button-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+	
 }
