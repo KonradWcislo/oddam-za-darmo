@@ -15,13 +15,13 @@
 .second-column {
 	display: flex;
 	flex-direction: column;
-	margin: 10% 10% 10% 0;
+	margin: 15% 10% 10% 0;
 	justify-content: space-between;
 }
 
 .two-columns {
 	width: 50%;
-	height: 300px;
+	height: 270px;
 }
 
 // second column
@@ -44,14 +44,15 @@
 
 .second-column-button {
 	text-transform: uppercase;
-	width: 30%;
-	height: 100%;
+	width: 250px;
+	height: 100px;
 	padding: 20px;
-	background-color: white;
+	background-color: transparent;
 	border: 1px solid black;
 	cursor: pointer;
+	font-size: 1.5rem;
+	color: $color5;
 }
 
 @media all and (max-width: 960px) {
-	
 }

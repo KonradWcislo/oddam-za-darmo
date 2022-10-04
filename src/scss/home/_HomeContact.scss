@@ -1,15 +1,15 @@
+.contact-container {
+	height: 800px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 .contact-container-background {
 	position: absolute;
 	opacity: 0.2;
 	width: 100%;
-	height: 130%;
-}
-
-.contact-container {
-	height: 1000px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	height: 120%;
 }
 
 .contact-background {
@@ -19,10 +19,26 @@
 	position: relative;
 }
 
+.contact-background h1 {
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
 .contact-background form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.contact-background button {
+	cursor: pointer;
+	width: 130px;
+	height: 40px;
+	font-size: 1rem;
+	margin-top: 50px;
+	margin-left: 52%;
+	background-color: transparent;
+	border: 1px solid $color5;
 }
 
 .contact-first-row {
@@ -52,44 +68,30 @@ textarea {
 	height: auto;
 	border: none;
 	background: none;
-	border-bottom: 1.7px solid black;
+	border-bottom: 1.7px solid $color5;
 }
 
 .contact-second-row input {
 	width: 450px;
 	height: 150px;
-	background: none;
-	border: none;
-	border-bottom: 1px solid black;
 }
 
 .text-area-container {
 	width: 450px;
 	height: 80px;
-	border: none;
-	background-color: transparent;
-	border-bottom: 1.7px solid #000;
 	resize: none;
 	font-family: $font-alt;
 }
 
+.contact-second-row input,
+.text-area-container {
+	background: transparent;
+	border: none;
+	border-bottom: 1.7px solid $color5;
+}
+
 .text-area-container::placeholder {
 	opacity: 0.4;
-}
-
-.contact-background button {
-	cursor: pointer;
-	width: 140px;
-	height: 60px;
-	font-size: 1rem;
-	border: 1px solid $color5;
-	margin-top: 50px;
-	background-color: transparent;
-}
-
-.ctc {
-	display: flex;
-	justify-content: right;
 }
 
 .contact-second-content {
@@ -98,6 +100,6 @@ textarea {
 
 .contact-first-row label,
 .contact-second-row label {
-	font-weight: bold;
+	font-weight: 400;
 	margin-top: 40px;
 }

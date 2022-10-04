@@ -4,14 +4,18 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
+}
+
+.log-in-container h1,
+.log-in-container img {
+	margin-bottom: 35px;
 }
 
 .log-in-form {
 	background-color: $color1;
 	display: flex;
-    flex-direction: column;
-    text-align: left;
+	flex-direction: column;
+	text-align: left;
 	padding: 25px 35px;
 	width: 300px;
 	height: 180px;
@@ -23,7 +27,6 @@
 	border: none;
 	border-bottom: 1px solid black;
 	background-color: $color1;
-	
 }
 
 .log-in-form label {
@@ -34,6 +37,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: 30px;
+	
 }
 
 .log-in-button button {

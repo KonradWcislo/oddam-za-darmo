@@ -20,7 +20,7 @@ export const HomeWhoWeHelpOrganizations = ({ currentSection }) => {
 				setFoundations(LZJsonData.slice(0, 3))
 				break
 			default:
-				console.log("wtf")
+			
 		}
 	}, [currentSection])
 

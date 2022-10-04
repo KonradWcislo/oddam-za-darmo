@@ -4,15 +4,16 @@
 }
 
 .header-navBar {
+	padding: 20px 0;
 	margin: 20px 100px;
-	height: auto;
+	height: 5px;
+	position: relative;
 }
 
 .logPanel {
 	display: flex;
 	justify-content: flex-end;
-	padding: 25px 0;
-	height: 80px;
+	height: 10px;
 }
 
 .login,
@@ -34,13 +35,13 @@ ul {
 	list-style-type: none;
 	display: flex;
 	justify-content: flex-end;
-	padding: 2% 0;
-}
+	margin: 2% 0;
+	}
 
 li {
-	margin-left: 30px;
+	margin-left: 10px;
 	cursor: pointer;
-	padding: 5px 12px;
+	padding: 5px 10px;
 	border: 1px solid #ffff;
 }
 

@@ -12,7 +12,7 @@ export const HomeWhoWeHelp = () => {
 	}
 
 	return (
-		<section name='HomeWhoWeHelp' className="">
+		<section name='HomeWhoWeHelp' className=''>
 			<div className='who-we-help-first-container'>
 				<h1>Komu pomagamy?</h1>
 				<img
