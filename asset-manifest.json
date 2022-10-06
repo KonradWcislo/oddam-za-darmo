@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//konradwcislo.github.io/oddam-za-darmo/static/css/main.4b80a170.css",
+    "main.js": "//konradwcislo.github.io/oddam-za-darmo/static/js/main.6c9d4587.js",
+    "static/media/Background-Contact-Form.jpg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Background-Contact-Form.655c54427d3b66427460.jpg",
+    "static/media/People.jpg": "//konradwcislo.github.io/oddam-za-darmo/static/media/People.2fa041c6275e64cce5d4.jpg",
+    "static/media/Home-Hero-Image.jpg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Home-Hero-Image.0c4f237f9a7b8fab82f4.jpg",
+    "static/media/Icon-1.svg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Icon-1.bd3d092ac43eb92350ab3e628f58c6e3.svg",
+    "static/media/Icon-4.svg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Icon-4.f1b3fb6d88016f0f95543cc7ad9a7803.svg",
+    "static/media/Icon-3.svg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Icon-3.564c1731a0ddca43e1da111146c460b0.svg",
+    "static/media/Icon-2.svg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Icon-2.cfac69a113268e131dcbb570c50c1251.svg",
+    "static/media/Signature.svg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Signature.8f2a001d56e8f7d883e166ac3cc69892.svg",
+    "static/media/Decoration.svg": "//konradwcislo.github.io/oddam-za-darmo/static/media/Decoration.aad75271e33dd889f25b0e24a5e6c0b2.svg",
+    "index.html": "//konradwcislo.github.io/oddam-za-darmo/index.html",
+    "main.4b80a170.css.map": "//konradwcislo.github.io/oddam-za-darmo/static/css/main.4b80a170.css.map",
+    "main.6c9d4587.js.map": "//konradwcislo.github.io/oddam-za-darmo/static/js/main.6c9d4587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b80a170.css",
+    "static/js/main.6c9d4587.js"
+  ]
+}
